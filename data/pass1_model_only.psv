@@ -1,0 +1,101 @@
+id|name|auth|access|api|mcp|verdict|blocker
+1|Salesforce|OAuth2|FREE|REST+SOAP broad|OFFICIAL|READY|
+2|HubSpot|OAuth2;Token|FREE|REST broad|OFFICIAL|READY|
+3|Pipedrive|OAuth2;API key|TRIAL|REST broad|COMMUNITY|READY|
+4|Attio|OAuth2;API key|FREE|REST medium|OFFICIAL|READY|
+5|Twenty|API key|FREE|REST+GraphQL medium|COMMUNITY|READY|
+6|Podio|OAuth2|FREE|REST medium|NONE|READY|
+7|Zoho CRM|OAuth2|FREE|REST broad|OFFICIAL|READY|
+8|Close|API key;OAuth2|TRIAL|REST broad|COMMUNITY|READY|
+9|Copper|API key|TRIAL|REST medium|NONE|READY|
+10|DealCloud|OAuth2|PARTNER|REST medium|NONE|OUTREACH|customer-only API
+11|Zendesk|OAuth2;API key|TRIAL|REST broad|COMMUNITY|READY|
+12|Intercom|OAuth2;Token|TRIAL|REST broad|OFFICIAL|READY|
+13|Freshdesk|API key|FREE|REST broad|COMMUNITY|READY|
+14|Front|OAuth2;Token|TRIAL|REST broad|NONE|READY|
+15|Pylon|API key|PAID|REST medium|NONE|OUTREACH|paid plan only
+16|LiveAgent|API key|TRIAL|REST medium|NONE|READY|
+17|Plain|API key|TRIAL|GraphQL medium|OFFICIAL|READY|
+18|Help Scout|OAuth2|TRIAL|REST medium|NONE|READY|
+19|Gorgias|OAuth2;API key|TRIAL|REST medium|NONE|READY|
+20|Gladly|API key|PARTNER|REST medium|NONE|OUTREACH|customer-only
+21|Slack|OAuth2|FREE|REST broad|OFFICIAL|READY|
+22|Twilio|API key|TRIAL|REST broad|OFFICIAL|READY|
+23|Zoho Cliq|OAuth2|FREE|REST medium|NONE|READY|
+24|Lark (Larksuite)|OAuth2;Token|FREE|REST broad|OFFICIAL|READY|
+25|Pumble|API key|FREE|REST narrow|NONE|READY|thin API
+26|Discord|Token;OAuth2|FREE|REST broad|COMMUNITY|READY|
+27|Telegram|Token|FREE|REST broad|COMMUNITY|READY|
+28|WhatsApp Business|Token;OAuth2|REVIEW|REST medium|NONE|READY|business verification
+29|Aircall|Basic;OAuth2|PAID|REST medium|NONE|READY|paid plan
+30|Vonage|API key;JWT|TRIAL|REST broad|COMMUNITY|READY|
+31|Google Ads|OAuth2|REVIEW|REST broad|OFFICIAL|OUTREACH|developer token approval
+32|Meta Ads|OAuth2|REVIEW|REST broad|COMMUNITY|READY|app review
+33|LinkedIn Ads|OAuth2|PARTNER|REST medium|NONE|OUTREACH|marketing API approval
+34|GoHighLevel|OAuth2;Token|PAID|REST broad|OFFICIAL|READY|paid account
+35|Mailchimp|OAuth2;API key|FREE|REST broad|NONE|READY|
+36|Klaviyo|API key;OAuth2|FREE|REST broad|OFFICIAL|READY|
+37|systeme.io|API key|FREE|REST narrow|NONE|READY|
+38|Pinterest|OAuth2|REVIEW|REST medium|NONE|READY|trial access tier
+39|Threads (Meta)|OAuth2|REVIEW|REST narrow|NONE|READY|app review
+40|SendGrid|API key|TRIAL|REST broad|NONE|READY|
+41|Shopify|OAuth2;Token|FREE|GraphQL broad|OFFICIAL|READY|
+42|WooCommerce|Basic|FREE|REST broad|NONE|READY|per-store URL
+43|BigCommerce|Token;OAuth2|TRIAL|REST+GraphQL broad|NONE|READY|
+44|Salesforce Commerce Cloud|OAuth2|PARTNER|REST broad|NONE|OUTREACH|customer/partner-only sandbox
+45|Magento (Adobe Commerce)|OAuth1;Token|FREE|REST+GraphQL broad|NONE|READY|self-hosted instance
+46|Squarespace|OAuth2;API key|PAID|REST narrow|NONE|READY|commerce plan
+47|Ecwid|OAuth2;Token|PAID|REST medium|NONE|READY|
+48|Gumroad|OAuth2|FREE|REST narrow|NONE|READY|
+49|Amazon Selling Partner|OAuth2|REVIEW|REST broad|NONE|OUTREACH|developer registration
+50|fanbasis|API key|PARTNER|unknown|NONE|OUTREACH|unclear docs
+51|DataForSEO|Basic|TRIAL|REST broad|OFFICIAL|READY|
+52|SE Ranking|API key|PAID|REST medium|NONE|READY|paid API add-on
+53|Ahrefs|API key|PAID|REST medium|OFFICIAL|OUTREACH|enterprise plan
+54|MrScraper|API key|TRIAL|REST narrow|NONE|READY|
+55|Apify|Token|FREE|REST broad|OFFICIAL|READY|
+56|Firecrawl|API key|FREE|REST medium|OFFICIAL|READY|
+57|Bright Data|API key|TRIAL|REST broad|OFFICIAL|READY|
+58|Sherlock|None|FREE|CLI|COMMUNITY|READY|no API, local CLI
+59|Waterfall.io|API key|PARTNER|REST medium|NONE|OUTREACH|sales gate
+60|Clay|API key|PAID|limited|NONE|OUTREACH|no general public API
+61|GitHub|OAuth2;Token|FREE|REST+GraphQL broad|OFFICIAL|READY|
+62|Vercel|Token;OAuth2|FREE|REST broad|OFFICIAL|READY|
+63|Netlify|Token;OAuth2|FREE|REST broad|OFFICIAL|READY|
+64|Cloudflare|Token|FREE|REST broad|OFFICIAL|READY|
+65|Supabase|API key;Token|FREE|REST broad|OFFICIAL|READY|
+66|Neo4j|Basic;OAuth2|FREE|REST medium|OFFICIAL|READY|
+67|Snowflake|JWT;OAuth2;Token|TRIAL|REST medium|OFFICIAL|READY|
+68|MongoDB Atlas|API key;OAuth2|FREE|REST broad|OFFICIAL|READY|
+69|Datadog|API key|TRIAL|REST broad|OFFICIAL|READY|
+70|Sentry|Token;OAuth2|FREE|REST broad|OFFICIAL|READY|
+71|Notion|OAuth2;Token|FREE|REST medium|OFFICIAL|READY|
+72|Airtable|Token;OAuth2|FREE|REST medium|COMMUNITY|READY|
+73|Linear|API key;OAuth2|FREE|GraphQL broad|OFFICIAL|READY|
+74|Jira|OAuth2;Basic|FREE|REST broad|OFFICIAL|READY|
+75|Asana|OAuth2;Token|FREE|REST broad|OFFICIAL|READY|
+76|Monday.com|Token;OAuth2|FREE|GraphQL broad|OFFICIAL|READY|
+77|ClickUp|Token;OAuth2|FREE|REST broad|OFFICIAL|READY|
+78|Coda|Token|FREE|REST medium|NONE|READY|
+79|Smartsheet|Token;OAuth2|TRIAL|REST broad|COMMUNITY|READY|
+80|Harvest|Token;OAuth2|TRIAL|REST medium|NONE|READY|
+81|Stripe|API key|FREE|REST broad|OFFICIAL|READY|
+82|Plaid|API key|FREE|REST broad|OFFICIAL|READY|production approval
+83|Binance|API key|FREE|REST broad|NONE|READY|KYC
+84|Paygent Connect|API key|PARTNER|REST medium|NONE|OUTREACH|merchant account
+85|iPayX|API key|PARTNER|unknown|NONE|OUTREACH|unclear docs
+86|QuickBooks|OAuth2|FREE|REST broad|OFFICIAL|READY|
+87|Xero|OAuth2|FREE|REST broad|OFFICIAL|READY|
+88|Brex|OAuth2;Token|PAID|REST medium|NONE|READY|customer account
+89|Ramp|OAuth2|PAID|REST medium|NONE|READY|customer account
+90|PitchBook|API key|PARTNER|REST medium|NONE|OUTREACH|enterprise contract
+91|NotebookLM|OAuth2|PAID|REST narrow|NONE|OUTREACH|enterprise only
+92|Otter AI|OAuth2|PAID|MCP only|OFFICIAL|READY|no REST
+93|Fathom|API key|FREE|REST narrow|NONE|READY|
+94|Consensus|API key|PARTNER|REST narrow|NONE|OUTREACH|partner API
+95|Reducto|API key|TRIAL|REST medium|NONE|READY|
+96|Devin|API key|PAID|REST medium|OFFICIAL|READY|paid seat
+97|higgsfield|API key|PAID|REST medium|NONE|READY|
+98|Mermaid CLI|None|FREE|CLI|COMMUNITY|READY|local CLI
+99|YouTube Transcript|API key|TRIAL|REST narrow|NONE|READY|
+100|Grain|API key;OAuth2|PAID|REST narrow|NONE|READY|business plan

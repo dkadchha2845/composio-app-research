@@ -1,0 +1,48 @@
+R4 #  6 Podio                      negative MCP claim has a single (silent-page) source → low confidence
+R4 #  9 Copper                     negative MCP claim has a single (silent-page) source → low confidence
+R4 # 13 Freshdesk                  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 14 Front                      negative MCP claim has a single (silent-page) source → low confidence
+R4 # 15 Pylon                      negative MCP claim has a single (silent-page) source → low confidence
+R4 # 16 LiveAgent                  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 19 Gorgias                    negative MCP claim has a single (silent-page) source → low confidence
+R4 # 20 Gladly                     negative MCP claim has a single (silent-page) source → low confidence
+R5 # 22 Twilio                     evidence URL known but not re-read in this run
+R4 # 23 Zoho Cliq                  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 26 Discord                    negative MCP claim has a single (silent-page) source → low confidence
+R5 # 26 Discord                    evidence URL known but not re-read in this run
+R4 # 27 Telegram                   negative MCP claim has a single (silent-page) source → low confidence
+R4 # 28 WhatsApp Business          negative MCP claim has a single (silent-page) source → low confidence
+R4 # 29 Aircall                    negative MCP claim has a single (silent-page) source → low confidence
+R4 # 33 LinkedIn Ads               negative MCP claim has a single (silent-page) source → low confidence
+R4 # 38 Pinterest                  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 39 Threads (Meta)             negative MCP claim has a single (silent-page) source → low confidence
+R4 # 40 SendGrid                   negative MCP claim has a single (silent-page) source → low confidence
+R4 # 44 Salesforce Commerce Cloud  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 45 Magento (Adobe Commerce)   negative MCP claim has a single (silent-page) source → low confidence
+R4 # 46 Squarespace                negative MCP claim has a single (silent-page) source → low confidence
+R4 # 47 Ecwid                      negative MCP claim has a single (silent-page) source → low confidence
+R4 # 48 Gumroad                    negative MCP claim has a single (silent-page) source → low confidence
+R5 # 48 Gumroad                    evidence URL known but not re-read in this run
+R4 # 49 Amazon Selling Partner     negative MCP claim has a single (silent-page) source → low confidence
+R4 # 50 fanbasis                   negative MCP claim has a single (silent-page) source → low confidence
+R4 # 58 Sherlock                   negative MCP claim has a single (silent-page) source → low confidence
+R4 # 59 Waterfall.io               negative MCP claim has a single (silent-page) source → low confidence
+R4 # 60 Clay                       negative MCP claim has a single (silent-page) source → low confidence
+R5 # 62 Vercel                     evidence URL known but not re-read in this run
+R5 # 63 Netlify                    evidence URL known but not re-read in this run
+R5 # 64 Cloudflare                 evidence URL known but not re-read in this run
+R5 # 65 Supabase                   evidence URL known but not re-read in this run
+R5 # 67 Snowflake                  evidence URL known but not re-read in this run
+R5 # 71 Notion                     evidence URL known but not re-read in this run
+R5 # 73 Linear                     evidence URL known but not re-read in this run
+R5 # 76 Monday.com                 evidence URL known but not re-read in this run
+R4 # 80 Harvest                    negative MCP claim has a single (silent-page) source → low confidence
+R4 # 83 Binance                    negative MCP claim has a single (silent-page) source → low confidence
+R4 # 85 iPayX                      negative MCP claim has a single (silent-page) source → low confidence
+R4 # 89 Ramp                       negative MCP claim has a single (silent-page) source → low confidence
+R4 # 90 PitchBook                  negative MCP claim has a single (silent-page) source → low confidence
+R4 # 91 NotebookLM                 negative MCP claim has a single (silent-page) source → low confidence
+R1 # 92 Otter AI                   evidence not on vendor domain: scalekit.com
+R4 # 98 Mermaid CLI                negative MCP claim has a single (silent-page) source → low confidence
+
+46 flags on 100 rows

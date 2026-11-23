@@ -1,0 +1,2168 @@
+[
+ {
+  "id": 1,
+  "name": "Salesforce",
+  "cat": "CRM & Sales",
+  "what": "Enterprise CRM platform (Sales/Service Cloud), heavily customizable",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free Developer Edition org",
+  "api": "REST+SOAP+Bulk",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Salesforce Hosted MCP Servers, standard OAuth",
+  "blocker": "",
+  "evidence": [
+   "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/overview"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 2,
+  "name": "HubSpot",
+  "cat": "CRM & Sales",
+  "what": "CRM + marketing/sales/service hubs for SMB",
+  "auth": [
+   "OAuth2",
+   "Private app token"
+  ],
+  "access": "FREE",
+  "access_note": "Free developer account and test portals",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Remote MCP server (OAuth user-level app)",
+  "blocker": "",
+  "evidence": [
+   "https://developers.hubspot.com/mcp"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 3,
+  "name": "Pipedrive",
+  "cat": "CRM & Sales",
+  "what": "Deal-pipeline CRM for small sales teams",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "Paid product; trial + developer sandbox",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "No vendor MCP in registry",
+  "blocker": "",
+  "evidence": [
+   "https://pipedrive.readme.io/docs/core-api-concepts-authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 4,
+  "name": "Attio",
+  "cat": "CRM & Sales",
+  "what": "Data-model-first, AI-native CRM",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; API key per workspace",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "No vendor namespace in registry",
+  "blocker": "",
+  "evidence": [
+   "https://docs.attio.com/rest-api/guides/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 5,
+  "name": "Twenty",
+  "cat": "CRM & Sales",
+  "what": "Open-source CRM (self-host or cloud)",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Open source, self-host via Docker",
+  "api": "REST+GraphQL",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "Only third-party MCPs",
+  "blocker": "",
+  "evidence": [
+   "https://docs.twenty.com/developers/introduction"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 6,
+  "name": "Podio",
+  "cat": "CRM & Sales",
+  "what": "Configurable workspace/app builder (Citrix/Progress)",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Register API key from account",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Ageing platform; 4 OAuth flows incl. password grant",
+  "evidence": [
+   "https://developers.podio.com/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 7,
+  "name": "Zoho CRM",
+  "cat": "CRM & Sales",
+  "what": "Mid-market CRM in the Zoho suite",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free edition + self-client OAuth",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Zoho MCP (vendor-hosted) - not in registry",
+  "blocker": "Multi-DC OAuth (accounts.zoho.com/.eu/.in)",
+  "evidence": [
+   "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 8,
+  "name": "Close",
+  "cat": "CRM & Sales",
+  "what": "Inside-sales CRM with built-in calling/email",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "14-day trial; key in Settings > Developer",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "com.close/close-mcp \u2192 mcp.close.com/mcp",
+  "blocker": "",
+  "evidence": [
+   "https://developer.close.com/topics/authentication/",
+   "https://registry.modelcontextprotocol.io/v0/servers?search=close"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 9,
+  "name": "Copper",
+  "cat": "CRM & Sales",
+  "what": "Google Workspace-native CRM",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; key + user email headers; OAuth for partners",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://developer.copper.com/introduction/authentication.html"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 10,
+  "name": "DealCloud",
+  "cat": "CRM & Sales",
+  "what": "Private-capital deal/relationship management (Intapp)",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "PARTNER",
+  "access_note": "Requires an Intapp DealCloud customer site",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Vendor docs list an MCP server",
+  "blocker": "Customer-only tenant; no public sandbox",
+  "evidence": [
+   "https://api.docs.dealcloud.com/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 11,
+  "name": "Zendesk",
+  "cat": "Support & Helpdesk",
+  "what": "Enterprise ticketing & customer service suite",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; API tokens (Basic) now marked deprecated \u2192 OAuth",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "Only third-party MCPs in registry",
+  "blocker": "",
+  "evidence": [
+   "https://developer.zendesk.com/api-reference/introduction/security-and-auth/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 12,
+  "name": "Intercom",
+  "cat": "Support & Helpdesk",
+  "what": "AI-first customer messaging & helpdesk",
+  "auth": [
+   "OAuth2",
+   "Access token"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial / dev workspace; OAuth for public apps",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP guide in developer docs",
+  "blocker": "",
+  "evidence": [
+   "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 13,
+  "name": "Freshdesk",
+  "cat": "Support & Helpdesk",
+  "what": "SMB helpdesk (Freshworks)",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan + trial; key as Basic username",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "Only third-party MCPs",
+  "blocker": "",
+  "evidence": [
+   "https://developers.freshdesk.com/api/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 14,
+  "name": "Front",
+  "cat": "Support & Helpdesk",
+  "what": "Shared-inbox customer ops platform",
+  "auth": [
+   "OAuth2",
+   "API token"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; OAuth required for public integrations",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://dev.frontapp.com/docs/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 15,
+  "name": "Pylon",
+  "cat": "Support & Helpdesk",
+  "what": "B2B support platform for Slack/Teams-based support",
+  "auth": [
+   "API token"
+  ],
+  "access": "PAID",
+  "access_note": "No free plan; admin-only token creation",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Needs a paid workspace to test",
+  "evidence": [
+   "https://docs.usepylon.com/pylon-docs/developer/api/authentication"
+  ],
+  "grounding": "read",
+  "composio": "MCP"
+ },
+ {
+  "id": 16,
+  "name": "LiveAgent",
+  "cat": "Support & Helpdesk",
+  "what": "Helpdesk + live chat + call center",
+  "auth": [
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "30-day free trial, no card",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://www.liveagent.com/api/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 17,
+  "name": "Plain",
+  "cat": "Support & Helpdesk",
+  "what": "API-first B2B support platform",
+  "auth": [
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial workspace; Bearer key",
+  "api": "GraphQL",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Docs recommend MCP server for agents",
+  "blocker": "",
+  "evidence": [
+   "https://www.plain.com/docs/api-reference/graphql"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 18,
+  "name": "Help Scout",
+  "cat": "Support & Helpdesk",
+  "what": "Email-based helpdesk for small teams",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; OAuth auth-code or client-credentials",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "0 registry entries",
+  "blocker": "",
+  "evidence": [
+   "https://developer.helpscout.com/mailbox-api/overview/authentication/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 19,
+  "name": "Gorgias",
+  "cat": "Support & Helpdesk",
+  "what": "Ecommerce helpdesk (Shopify-centric)",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; Basic(email+key) private, OAuth public apps",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://developers.gorgias.com/docs/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 20,
+  "name": "Gladly",
+  "cat": "Support & Helpdesk",
+  "what": "People-centric enterprise customer service",
+  "auth": [
+   "Basic"
+  ],
+  "access": "PARTNER",
+  "access_note": "Demo-led sales; needs Gladly org + API User permission",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Customer-only; no self-serve account",
+  "evidence": [
+   "https://developer.gladly.com/rest/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 21,
+  "name": "Slack",
+  "cat": "Communications",
+  "what": "Team messaging & workflow platform",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free workspace + app creation",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.slack.com \u2014 only Marketplace-published or internal apps may use it",
+  "blocker": "MCP gated behind Slack Marketplace listing",
+  "evidence": [
+   "https://docs.slack.dev/ai/mcp-server"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 22,
+  "name": "Twilio",
+  "cat": "Communications",
+  "what": "CPaaS: SMS, voice, WhatsApp, email APIs",
+  "auth": [
+   "API key",
+   "Basic"
+  ],
+  "access": "TRIAL",
+  "access_note": "Free trial credit; Account SID/Auth Token or API keys",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "twilio-labs MCP (not in registry under vendor namespace)",
+  "blocker": "",
+  "evidence": [
+   "https://www.twilio.com/docs/usage/api"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 23,
+  "name": "Zoho Cliq",
+  "cat": "Communications",
+  "what": "Team chat in the Zoho suite",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; scoped OAuth",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://www.zoho.com/cliq/help/restapi/v2/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 24,
+  "name": "Lark (Larksuite)",
+  "cat": "Communications",
+  "what": "ByteDance all-in-one suite: chat, docs, base",
+  "auth": [
+   "OAuth2",
+   "Tenant token"
+  ],
+  "access": "FREE",
+  "access_note": "Self-serve developer console apps",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "larksuite/lark-openapi-mcp (official, beta)",
+  "blocker": "",
+  "evidence": [
+   "https://github.com/larksuite/lark-openapi-mcp"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 25,
+  "name": "Pumble",
+  "cat": "Communications",
+  "what": "Low-cost Slack alternative (CAKE.com)",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; API-keys integration",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Pumble MCP server help article",
+  "blocker": "Thin API surface",
+  "evidence": [
+   "https://pumble.com/help/integrations/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 26,
+  "name": "Discord",
+  "cat": "Communications",
+  "what": "Community chat; bots via gateway + REST",
+  "auth": [
+   "Bot token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free developer portal app",
+  "api": "REST+Gateway",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://discord.com/developers/docs/reference#authentication"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 27,
+  "name": "Telegram",
+  "cat": "Communications",
+  "what": "Messaging; Bot API over HTTPS",
+  "auth": [
+   "Bot token"
+  ],
+  "access": "FREE",
+  "access_note": "Token from @BotFather, free",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Bots only see chats they are added to",
+  "evidence": [
+   "https://core.telegram.org/bots/api"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 28,
+  "name": "WhatsApp Business",
+  "cat": "Communications",
+  "what": "Meta's Cloud API for business messaging",
+  "auth": [
+   "Access token",
+   "OAuth2"
+  ],
+  "access": "REVIEW",
+  "access_note": "Free test number (5 recipients); production needs WABA + business verification",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Business verification + per-message pricing",
+  "evidence": [
+   "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 29,
+  "name": "Aircall",
+  "cat": "Communications",
+  "what": "Cloud phone system for sales/support",
+  "auth": [
+   "Basic",
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "Admin creates key; OAuth only for Marketplace partners",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "No free plan / sandbox",
+  "evidence": [
+   "https://developers.aircall.io/api-references"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 30,
+  "name": "Vonage",
+  "cat": "Communications",
+  "what": "CPaaS: SMS, voice, video, verify",
+  "auth": [
+   "API key",
+   "JWT"
+  ],
+  "access": "TRIAL",
+  "access_note": "Free trial credit",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://developer.vonage.com/en/getting-started/concepts/authentication"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 31,
+  "name": "Google Ads",
+  "cat": "Marketing & Ads",
+  "what": "Google search/display ad platform",
+  "auth": [
+   "OAuth2",
+   "Developer token"
+  ],
+  "access": "REVIEW",
+  "access_note": "Test access instant; Explorer usually auto-approved; Basic/Standard need review",
+  "api": "REST/gRPC",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "googleads/google-ads-mcp (Google-maintained)",
+  "blocker": "Developer-token tiers cap production ops",
+  "evidence": [
+   "https://developers.google.com/google-ads/api/docs/api-policy/access-levels"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 32,
+  "name": "Meta Ads",
+  "cat": "Marketing & Ads",
+  "what": "Facebook/Instagram Marketing API",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "REVIEW",
+  "access_note": "Standard access default; Advanced needs App Review per permission",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "App Review + Business verification",
+  "evidence": [
+   "https://developers.facebook.com/docs/marketing-api/get-started/authorization"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 33,
+  "name": "LinkedIn Ads",
+  "cat": "Marketing & Ads",
+  "what": "LinkedIn Marketing/Advertising API",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "PARTNER",
+  "access_note": "Must apply; dev tier limited; Standard via support ticket, may be declined",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Marketing API application approval",
+  "evidence": [
+   "https://learn.microsoft.com/en-us/linkedin/marketing/getting-access"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 34,
+  "name": "GoHighLevel",
+  "cat": "Marketing & Ads",
+  "what": "Agency CRM + funnels + automation",
+  "auth": [
+   "OAuth2",
+   "Private token"
+  ],
+  "access": "PAID",
+  "access_note": "No free plan; Marketplace OAuth or Private Integration Token",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Paid sub-account/agency needed",
+  "evidence": [
+   "https://marketplace.gohighlevel.com/docs/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 35,
+  "name": "Mailchimp",
+  "cat": "Marketing & Ads",
+  "what": "Email marketing for SMB",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; API key or OAuth",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP server page in developer docs",
+  "blocker": "",
+  "evidence": [
+   "https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 36,
+  "name": "Klaviyo",
+  "cat": "Marketing & Ads",
+  "what": "Ecommerce email/SMS marketing",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; private key or OAuth",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Remote + local MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://developers.klaviyo.com/en/docs/klaviyo_mcp_server"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 37,
+  "name": "systeme.io",
+  "cat": "Marketing & Ads",
+  "what": "All-in-one funnel/course/email builder",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; X-API-Key, max 3 keys",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Settings section 'MCP & API keys'",
+  "blocker": "Thin API (contacts, tags, courses)",
+  "evidence": [
+   "https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 38,
+  "name": "Pinterest",
+  "cat": "Marketing & Ads",
+  "what": "Visual discovery + ads API (v5)",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "REVIEW",
+  "access_note": "Trial access request reviewed; trial tokens 24h; Standard needs upgrade",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Trial\u2192Standard access review",
+  "evidence": [
+   "https://developers.pinterest.com/docs/getting-started/set-up-app/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 39,
+  "name": "Threads (Meta)",
+  "cat": "Marketing & Ads",
+  "what": "Meta's text social network API",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "REVIEW",
+  "access_note": "Dev mode = invited testers; App Review for others",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "App Review per permission",
+  "evidence": [
+   "https://developers.facebook.com/docs/threads/get-started"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 40,
+  "name": "SendGrid",
+  "cat": "Marketing & Ads",
+  "what": "Transactional/marketing email API (Twilio)",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free tier; Bearer key",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 41,
+  "name": "Shopify",
+  "cat": "Ecommerce",
+  "what": "Leading hosted ecommerce platform",
+  "auth": [
+   "OAuth2",
+   "Access token"
+  ],
+  "access": "FREE",
+  "access_note": "Free dev stores via Partner/Dev Dashboard",
+  "api": "GraphQL",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Dev MCP (local) + Storefront/Shopify MCP",
+  "blocker": "",
+  "evidence": [
+   "https://shopify.dev/docs/apps/build/devmcp"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 42,
+  "name": "WooCommerce",
+  "cat": "Ecommerce",
+  "what": "Open-source WordPress commerce plugin",
+  "auth": [
+   "Basic",
+   "OAuth1"
+  ],
+  "access": "FREE",
+  "access_note": "Self-host; consumer key/secret per store",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Per-store base URL; store must be reachable",
+  "evidence": [
+   "https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 43,
+  "name": "BigCommerce",
+  "cat": "Ecommerce",
+  "what": "Hosted ecommerce for mid-market",
+  "auth": [
+   "Access token",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial + sandbox stores; X-Auth-Token",
+  "api": "REST+GraphQL",
+  "breadth": "Broad",
+  "mcp": "DOCS_ONLY",
+  "mcp_note": "Docs MCP server only",
+  "blocker": "",
+  "evidence": [
+   "https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 44,
+  "name": "Salesforce Commerce Cloud",
+  "cat": "Ecommerce",
+  "what": "Enterprise B2C commerce (SFCC/SCAPI)",
+  "auth": [
+   "OAuth2",
+   "JWT"
+  ],
+  "access": "PARTNER",
+  "access_note": "SLAS / Account Manager clients need a B2C Commerce realm",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Customer/partner realm required",
+  "evidence": [
+   "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 45,
+  "name": "Magento (Adobe Commerce)",
+  "cat": "Ecommerce",
+  "what": "Open-source/enterprise commerce platform",
+  "auth": [
+   "Access token",
+   "OAuth1"
+  ],
+  "access": "FREE",
+  "access_note": "Open Source edition self-host",
+  "api": "REST+GraphQL",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Per-instance URL; Adobe Commerce Cloud is licensed",
+  "evidence": [
+   "https://developer.adobe.com/commerce/webapi/get-started/authentication/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 46,
+  "name": "Squarespace",
+  "cat": "Ecommerce",
+  "what": "Website builder with commerce",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "API keys need Commerce Advanced plan; OAuth clients need approval",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Plan + OAuth client approval",
+  "evidence": [
+   "https://developers.squarespace.com/commerce-apis/authentication-and-permissions"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 47,
+  "name": "Ecwid",
+  "cat": "Ecommerce",
+  "what": "Embeddable store (Lightspeed)",
+  "auth": [
+   "OAuth2",
+   "Access token"
+  ],
+  "access": "PAID",
+  "access_note": "Custom-app tokens on paid plans (not verified)",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Docs moved; plan gate unverified",
+  "evidence": [
+   "https://docs.ecwid.com/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 48,
+  "name": "Gumroad",
+  "cat": "Ecommerce",
+  "what": "Creator storefront for digital products",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free OAuth app",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://gumroad.com/api"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 49,
+  "name": "Amazon Selling Partner",
+  "cat": "Ecommerce",
+  "what": "Amazon seller/vendor APIs (SP-API)",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "REVIEW",
+  "access_note": "Professional seller account + role review; public apps via Appstore",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Developer registration + restricted roles",
+  "evidence": [
+   "https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 50,
+  "name": "fanbasis",
+  "cat": "Ecommerce",
+  "what": "Creator monetization / checkout platform",
+  "auth": [
+   "Unknown"
+  ],
+  "access": "NONE",
+  "access_note": "No public developer docs found (site unreachable to the agent; search returned only unrelated Fanbase/Fanvue APIs)",
+  "api": "None found",
+  "breadth": "None",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "No public API documentation located",
+  "evidence": [
+   "https://www.fanbasis.com"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 51,
+  "name": "DataForSEO",
+  "cat": "Data, SEO & Scraping",
+  "what": "Pay-as-you-go SEO data APIs (SERP, keywords, backlinks)",
+  "auth": [
+   "Basic"
+  ],
+  "access": "FREE",
+  "access_note": "Free account, pay-as-you-go",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Official MCP server (dataforseo/mcp-server-typescript)",
+  "blocker": "",
+  "evidence": [
+   "https://docs.dataforseo.com/v3/auth/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 52,
+  "name": "SE Ranking",
+  "cat": "Data, SEO & Scraping",
+  "what": "SEO platform with Data + Project APIs",
+  "auth": [
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "API in every plan; free trial",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP server on API page",
+  "blocker": "",
+  "evidence": [
+   "https://seranking.com/api.html"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 53,
+  "name": "Ahrefs",
+  "cat": "Data, SEO & Scraping",
+  "what": "Backlink & SEO intelligence",
+  "auth": [
+   "API key"
+  ],
+  "access": "PAID",
+  "access_note": "Eligible paid plans; limited free test queries",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP docs section",
+  "blocker": "Plan tier gates API units",
+  "evidence": [
+   "https://docs.ahrefs.com/docs/api/reference/introduction"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 54,
+  "name": "MrScraper",
+  "cat": "Data, SEO & Scraping",
+  "what": "AI web scraper as an API",
+  "auth": [
+   "API token"
+  ],
+  "access": "TRIAL",
+  "access_note": "Token Plan page; credit-based",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP server for page retrieval/search",
+  "blocker": "",
+  "evidence": [
+   "https://docs.mrscraper.com"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 55,
+  "name": "Apify",
+  "cat": "Data, SEO & Scraping",
+  "what": "Scraping/automation actor marketplace",
+  "auth": [
+   "API token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan with monthly credit",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.apify.com (OAuth or token)",
+  "blocker": "",
+  "evidence": [
+   "https://docs.apify.com/platform/integrations/mcp"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 56,
+  "name": "Firecrawl",
+  "cat": "Data, SEO & Scraping",
+  "what": "Crawl/scrape web to LLM-ready markdown",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free credits; keyless MCP mode",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Remote + local MCP",
+  "blocker": "",
+  "evidence": [
+   "https://docs.firecrawl.dev/mcp-server"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 57,
+  "name": "Bright Data",
+  "cat": "Data, SEO & Scraping",
+  "what": "Proxy network + scraping/data APIs",
+  "auth": [
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial credit",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP with agent API keys",
+  "blocker": "",
+  "evidence": [
+   "https://docs.brightdata.com/api-reference/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 58,
+  "name": "Sherlock",
+  "cat": "Data, SEO & Scraping",
+  "what": "OSS CLI: find usernames across 400+ sites",
+  "auth": [
+   "None"
+  ],
+  "access": "FREE",
+  "access_note": "MIT CLI (pip/docker)",
+  "api": "CLI",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "No API: must be wrapped/hosted; OSINT/ToS sensitivity",
+  "evidence": [
+   "https://github.com/sherlock-project/sherlock"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 59,
+  "name": "Waterfall.io",
+  "cat": "Data, SEO & Scraping",
+  "what": "Contact/company enrichment across 30+ vendors",
+  "auth": [
+   "API key"
+  ],
+  "access": "PARTNER",
+  "access_note": "Book-a-call; no self-serve signup",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Sales gate for API key",
+  "evidence": [
+   "https://waterfall.io/",
+   "https://docs.waterfall.io/v1/introduction"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 60,
+  "name": "Clay",
+  "cat": "Data, SEO & Scraping",
+  "what": "GTM data enrichment spreadsheets + agents",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Public API on all plans incl. free (CLI-created key)",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "MCP for Reps is admin-configured",
+  "blocker": "Table access read-only; structured queries Enterprise",
+  "evidence": [
+   "https://university.clay.com/docs/using-clay-as-an-api"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 61,
+  "name": "GitHub",
+  "cat": "Dev & Infra",
+  "what": "Code hosting, PRs, issues, Actions",
+  "auth": [
+   "OAuth2",
+   "PAT",
+   "GitHub App"
+  ],
+  "access": "FREE",
+  "access_note": "Free account",
+  "api": "REST+GraphQL",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "github/github-mcp-server (remote + local)",
+  "blocker": "",
+  "evidence": [
+   "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 62,
+  "name": "Vercel",
+  "cat": "Dev & Infra",
+  "what": "Frontend cloud: deployments, domains",
+  "auth": [
+   "Access token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Hobby plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.vercel.com",
+  "blocker": "",
+  "evidence": [
+   "https://vercel.com/docs/rest-api"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 63,
+  "name": "Netlify",
+  "cat": "Dev & Infra",
+  "what": "Web hosting/deploy platform",
+  "auth": [
+   "PAT",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Netlify MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://docs.netlify.com/api/get-started/"
+  ],
+  "grounding": "known",
+  "composio": "MCP"
+ },
+ {
+  "id": 64,
+  "name": "Cloudflare",
+  "cat": "Dev & Infra",
+  "what": "CDN, DNS, Workers, security",
+  "auth": [
+   "API token"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Cloudflare remote MCP servers",
+  "blocker": "",
+  "evidence": [
+   "https://developers.cloudflare.com/fundamentals/api/get-started/create-token/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 65,
+  "name": "Supabase",
+  "cat": "Dev & Infra",
+  "what": "Postgres BaaS (auth, storage, functions)",
+  "auth": [
+   "API key",
+   "PAT",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free tier projects",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Supabase MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://supabase.com/docs/guides/api"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 66,
+  "name": "Neo4j",
+  "cat": "Dev & Infra",
+  "what": "Graph database (Aura cloud)",
+  "auth": [
+   "Basic",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "AuraDB Free",
+  "api": "REST (Query API)",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "neo4j MCP servers",
+  "blocker": "",
+  "evidence": [
+   "https://neo4j.com/docs/query-api/current/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 67,
+  "name": "Snowflake",
+  "cat": "Dev & Infra",
+  "what": "Cloud data warehouse",
+  "auth": [
+   "JWT",
+   "OAuth2",
+   "PAT"
+  ],
+  "access": "TRIAL",
+  "access_note": "30-day trial",
+  "api": "REST (SQL API)",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Snowflake-managed MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 68,
+  "name": "MongoDB Atlas",
+  "cat": "Dev & Infra",
+  "what": "Managed MongoDB cloud",
+  "auth": [
+   "API key",
+   "Service account"
+  ],
+  "access": "FREE",
+  "access_note": "M0 free cluster",
+  "api": "REST (Admin API)",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mongodb-mcp-server",
+  "blocker": "",
+  "evidence": [
+   "https://www.mongodb.com/docs/atlas/api/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 69,
+  "name": "Datadog",
+  "cat": "Dev & Infra",
+  "what": "Observability: metrics, logs, APM",
+  "auth": [
+   "API key",
+   "App key",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "14-day trial",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Remote MCP server (under development)",
+  "blocker": "",
+  "evidence": [
+   "https://docs.datadoghq.com/bits_ai/mcp_server/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 70,
+  "name": "Sentry",
+  "cat": "Dev & Infra",
+  "what": "Error & performance monitoring",
+  "auth": [
+   "Auth token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free developer plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.sentry.dev",
+  "blocker": "",
+  "evidence": [
+   "https://docs.sentry.io/api/auth/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 71,
+  "name": "Notion",
+  "cat": "Productivity & PM",
+  "what": "Docs + wiki + databases workspace",
+  "auth": [
+   "OAuth2",
+   "Integration token"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.notion.com",
+  "blocker": "",
+  "evidence": [
+   "https://developers.notion.com/docs/authorization"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 72,
+  "name": "Airtable",
+  "cat": "Productivity & PM",
+  "what": "Spreadsheet-database hybrid",
+  "auth": [
+   "PAT",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "com.airtable/mcp \u2192 mcp.airtable.com",
+  "blocker": "",
+  "evidence": [
+   "https://registry.modelcontextprotocol.io/v0/servers?search=airtable",
+   "https://airtable.com/developers/web/api/authentication"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 73,
+  "name": "Linear",
+  "cat": "Productivity & PM",
+  "what": "Issue tracking for software teams",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "GraphQL",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.linear.app",
+  "blocker": "",
+  "evidence": [
+   "https://linear.app/developers/graphql"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 74,
+  "name": "Jira",
+  "cat": "Productivity & PM",
+  "what": "Atlassian issue & project tracking",
+  "auth": [
+   "OAuth2",
+   "Basic"
+  ],
+  "access": "FREE",
+  "access_note": "Free Cloud plan; API token Basic or OAuth 3LO",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Atlassian Rovo remote MCP",
+  "blocker": "",
+  "evidence": [
+   "https://developer.atlassian.com/cloud/jira/platform/basic-auth-for-rest-apis/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 75,
+  "name": "Asana",
+  "cat": "Productivity & PM",
+  "what": "Work/project management",
+  "auth": [
+   "OAuth2",
+   "PAT"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.asana.com",
+  "blocker": "",
+  "evidence": [
+   "https://developers.asana.com/docs/authentication"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 76,
+  "name": "Monday.com",
+  "cat": "Productivity & PM",
+  "what": "Work OS boards & automations",
+  "auth": [
+   "API token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan / trial",
+  "api": "GraphQL",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "monday MCP",
+  "blocker": "",
+  "evidence": [
+   "https://developer.monday.com/api-reference/docs/authentication"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 77,
+  "name": "ClickUp",
+  "cat": "Productivity & PM",
+  "what": "All-in-one tasks/docs/goals",
+  "auth": [
+   "API token",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free Forever plan",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "ClickUp MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://developer.clickup.com/docs/authentication"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 78,
+  "name": "Coda",
+  "cat": "Productivity & PM",
+  "what": "Docs-as-apps with tables & formulas",
+  "auth": [
+   "API token"
+  ],
+  "access": "FREE",
+  "access_note": "API free on free + paid workspaces",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "No vendor MCP in registry",
+  "blocker": "",
+  "evidence": [
+   "https://coda.io/developers/apis/v1"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 79,
+  "name": "Smartsheet",
+  "cat": "Productivity & PM",
+  "what": "Enterprise spreadsheet-style work mgmt",
+  "auth": [
+   "API token",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; API on paid plans",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Official MCP (older smar-mcp repo deprecated in its favour)",
+  "blocker": "",
+  "evidence": [
+   "https://github.com/smartsheet-platform/smar-mcp",
+   "https://developers.smartsheet.com/api/smartsheet/introduction"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 80,
+  "name": "Harvest",
+  "cat": "Productivity & PM",
+  "what": "Time tracking & invoicing",
+  "auth": [
+   "PAT",
+   "OAuth2"
+  ],
+  "access": "TRIAL",
+  "access_note": "Trial; PAT + Harvest-Account-Id",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 81,
+  "name": "Stripe",
+  "cat": "Finance & Fintech",
+  "what": "Payments infrastructure",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free test mode",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.stripe.com",
+  "blocker": "",
+  "evidence": [
+   "https://docs.stripe.com/api/authentication"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 82,
+  "name": "Plaid",
+  "cat": "Finance & Fintech",
+  "what": "Bank-account data/linking APIs",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "Free Sandbox; Production access requested in Dashboard",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "DOCS_ONLY",
+  "mcp_note": "MCP for docs/IDE",
+  "blocker": "Production approval for live bank data",
+  "evidence": [
+   "https://plaid.com/docs/api/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 83,
+  "name": "Binance",
+  "cat": "Finance & Fintech",
+  "what": "Crypto exchange trading/market data",
+  "auth": [
+   "API key",
+   "HMAC"
+  ],
+  "access": "FREE",
+  "access_note": "Exchange account (KYC) + Spot testnet",
+  "api": "REST+WebSocket",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "KYC + regional restrictions; trade execution risk",
+  "evidence": [
+   "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/endpoint-security-type"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 84,
+  "name": "Paygent Connect",
+  "cat": "Finance & Fintech",
+  "what": "NMI-powered payment gateway reseller",
+  "auth": [
+   "API key"
+  ],
+  "access": "PARTNER",
+  "access_note": "Keys from NMI merchant/partner portal \u2192 need a merchant account",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "NMI docs list an MCP server (gateway level)",
+  "blocker": "Merchant underwriting via reseller",
+  "evidence": [
+   "https://docs.nmi.com/docs/getting-your-api-keys",
+   "https://docs.nmi.com/reference/postman-collection"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 85,
+  "name": "iPayX",
+  "cat": "Finance & Fintech",
+  "what": "FX-fee verification tool for transactions",
+  "auth": [
+   "Unknown"
+  ],
+  "access": "NONE",
+  "access_note": "No API documented on docs page",
+  "api": "None found",
+  "breadth": "None",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "'MCP FX server' only in meta keywords",
+  "blocker": "No documented API",
+  "evidence": [
+   "https://ipayx.ai/docs"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 86,
+  "name": "QuickBooks",
+  "cat": "Finance & Fintech",
+  "what": "SMB accounting (Intuit)",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free developer sandbox companies",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "intuit quickbooks-online-mcp-server",
+  "blocker": "Production app assessment",
+  "evidence": [
+   "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 87,
+  "name": "Xero",
+  "cat": "Finance & Fintech",
+  "what": "SMB accounting",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free developer app + demo company",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "OFFICIAL",
+  "mcp_note": "XeroAPI/xero-mcp-server",
+  "blocker": "Uncertified apps capped on connections",
+  "evidence": [
+   "https://developer.xero.com/documentation/guides/oauth2/overview/"
+  ],
+  "grounding": "known",
+  "composio": "Y"
+ },
+ {
+  "id": 88,
+  "name": "Brex",
+  "cat": "Finance & Fintech",
+  "what": "Corporate cards & spend management",
+  "auth": [
+   "User token",
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "Brex customer account; admin accepts API agreement",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Must be a Brex customer",
+  "evidence": [
+   "https://developer.brex.com/docs/authentication/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 89,
+  "name": "Ramp",
+  "cat": "Finance & Fintech",
+  "what": "Corporate cards & spend management",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "Ramp customer admin creates app; demo env exists",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "ramp-mcp repo archived",
+  "blocker": "Must be a Ramp customer",
+  "evidence": [
+   "https://github.com/ramp-public/ramp-mcp",
+   "https://docs.ramp.com/developer-api/v1/overview/introduction"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 90,
+  "name": "PitchBook",
+  "cat": "Finance & Fintech",
+  "what": "Private-markets data (VC/PE)",
+  "auth": [
+   "API key"
+  ],
+  "access": "PARTNER",
+  "access_note": "Paid contract-gated add-on; key issued by account manager",
+  "api": "REST",
+  "breadth": "Broad",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "Premium Connector for AI tools (licensed)",
+  "blocker": "Enterprise contract + API credits",
+  "evidence": [
+   "https://pitchbook.com/help/pitchbook-api"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 91,
+  "name": "NotebookLM",
+  "cat": "AI & Media-native",
+  "what": "Google's source-grounded research notebooks",
+  "auth": [
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "Enterprise API (Preview) needs license + Cloud NotebookLM User role",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Consumer NotebookLM has no API; Enterprise preview only",
+  "evidence": [
+   "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 92,
+  "name": "Otter AI",
+  "cat": "AI & Media-native",
+  "what": "Meeting transcription & notes",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "PAID",
+  "access_note": "MCP via OAuth on standard accounts; REST API Enterprise-only",
+  "api": "MCP + REST (Enterprise)",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.otter.ai/mcp (read-only, OAuth)",
+  "blocker": "REST API gated to Enterprise",
+  "evidence": [
+   "https://www.scalekit.com/blog/otter-mcp-vs-api",
+   "https://mcpservers.org/remote-mcp-servers/otter-ai"
+  ],
+  "grounding": "read",
+  "composio": "MCP"
+ },
+ {
+  "id": 93,
+  "name": "Fathom",
+  "cat": "AI & Media-native",
+  "what": "AI meeting recorder & summaries",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "FREE",
+  "access_note": "Free plan; API keys + OAuth for apps",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "",
+  "evidence": [
+   "https://developers.fathom.ai/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 94,
+  "name": "Consensus",
+  "cat": "AI & Media-native",
+  "what": "AI search engine over research papers",
+  "auth": [
+   "API key",
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "Self-serve key at consensus.app/api-mcp on paid plans; MCP uses OAuth",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.consensus.app/mcp",
+  "blocker": "Name collision with goconsensus.com (different company)",
+  "evidence": [
+   "https://consensus.app/home/api/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 95,
+  "name": "Reducto",
+  "cat": "AI & Media-native",
+  "what": "Document parsing/extraction API for LLMs",
+  "auth": [
+   "API key"
+  ],
+  "access": "TRIAL",
+  "access_note": "Studio signup with credits (not confirmed in docs)",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP server for Claude Code/Cursor",
+  "blocker": "",
+  "evidence": [
+   "https://docs.reducto.ai/"
+  ],
+  "grounding": "read",
+  "composio": "N"
+ },
+ {
+  "id": 96,
+  "name": "Devin",
+  "cat": "AI & Media-native",
+  "what": "Autonomous AI software engineer (Cognition)",
+  "auth": [
+   "API key"
+  ],
+  "access": "PAID",
+  "access_note": "Devin account (paid) required",
+  "api": "REST",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "mcp.devin.ai/mcp (Bearer key)",
+  "blocker": "",
+  "evidence": [
+   "https://docs.devin.ai/work-with-devin/devin-mcp"
+  ],
+  "grounding": "read",
+  "composio": "MCP"
+ },
+ {
+  "id": 97,
+  "name": "higgsfield",
+  "cat": "AI & Media-native",
+  "what": "AI image/video generation suite",
+  "auth": [
+   "OAuth2",
+   "API key"
+  ],
+  "access": "PAID",
+  "access_note": "Credits required; CLI uses browser login",
+  "api": "REST+CLI",
+  "breadth": "Medium",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP via server URL + sign-in",
+  "blocker": "Credit-billed generation",
+  "evidence": [
+   "https://higgsfield.ai/cli"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 98,
+  "name": "Mermaid CLI",
+  "cat": "AI & Media-native",
+  "what": "OSS CLI rendering Mermaid diagrams to SVG/PNG/PDF",
+  "auth": [
+   "None"
+  ],
+  "access": "FREE",
+  "access_note": "MIT, npm/docker",
+  "api": "CLI",
+  "breadth": "Narrow",
+  "mcp": "NONE_FOUND",
+  "mcp_note": "",
+  "blocker": "Local tool; needs sandboxed execution, not an API",
+  "evidence": [
+   "https://github.com/mermaid-js/mermaid-cli"
+  ],
+  "grounding": "read",
+  "composio": "MCP"
+ },
+ {
+  "id": 99,
+  "name": "YouTube Transcript",
+  "cat": "AI & Media-native",
+  "what": "TranscriptAPI: hosted YouTube transcript/search API",
+  "auth": [
+   "API key"
+  ],
+  "access": "FREE",
+  "access_note": "100 free credits, no card",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "Hosted MCP server",
+  "blocker": "",
+  "evidence": [
+   "https://transcriptapi.com"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ },
+ {
+  "id": 100,
+  "name": "Grain",
+  "cat": "AI & Media-native",
+  "what": "Meeting recorder & highlights for revenue teams",
+  "auth": [
+   "PAT",
+   "OAuth2"
+  ],
+  "access": "PAID",
+  "access_note": "PAT on Grain account (plan gate unverified)",
+  "api": "REST",
+  "breadth": "Narrow",
+  "mcp": "OFFICIAL",
+  "mcp_note": "MCP docs linked from developer portal",
+  "blocker": "",
+  "evidence": [
+   "https://developers.grain.com/"
+  ],
+  "grounding": "read",
+  "composio": "Y"
+ }
+]

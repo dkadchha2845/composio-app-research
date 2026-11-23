@@ -1,0 +1,186 @@
+{
+ "auth": {
+  "OAuth2": 65,
+  "API key / token": 73,
+  "Basic": 7,
+  "JWT": 3,
+  "OAuth1": 2,
+  "Unknown": 2,
+  "None (CLI)": 2
+ },
+ "both": 45,
+ "oauth_only": 16,
+ "key_only": 28,
+ "gate": {
+  "Self-serve (free)": 47,
+  "Self-serve (trial)": 24,
+  "Sales / partner gate": 7,
+  "Paid plan": 13,
+  "Approval / app review": 7,
+  "No public API": 2
+ },
+ "verdict": {
+  "Ready now": 67,
+  "Needs outreach": 7,
+  "Buildable w/ caveat": 24,
+  "Not buildable today": 2
+ },
+ "blockers": {
+  "Sales/partner or customer-only access": 7,
+  "Paid plan required to test": 13,
+  "App review / approval tier": 7,
+  "Self-hosted / per-instance URL": 2,
+  "No public API": 2,
+  "No API (local CLI)": 2
+ },
+ "mcp": {
+  "OFFICIAL": 57,
+  "NONE_FOUND": 39,
+  "DOCS_ONLY": 4
+ },
+ "matrix": {
+  "CRM & Sales": {
+   "Self-serve (free)": 6,
+   "Self-serve (trial)": 3,
+   "Sales / partner gate": 1
+  },
+  "Support & Helpdesk": {
+   "Self-serve (trial)": 8,
+   "Paid plan": 1,
+   "Sales / partner gate": 1
+  },
+  "Communications": {
+   "Self-serve (free)": 6,
+   "Self-serve (trial)": 3,
+   "Approval / app review": 1
+  },
+  "Marketing & Ads": {
+   "Approval / app review": 4,
+   "Sales / partner gate": 1,
+   "Paid plan": 1,
+   "Self-serve (free)": 3,
+   "Self-serve (trial)": 1
+  },
+  "Ecommerce": {
+   "Self-serve (free)": 4,
+   "Self-serve (trial)": 1,
+   "Sales / partner gate": 1,
+   "Paid plan": 2,
+   "Approval / app review": 1,
+   "No public API": 1
+  },
+  "Data, SEO & Scraping": {
+   "Self-serve (free)": 5,
+   "Self-serve (trial)": 3,
+   "Paid plan": 1,
+   "Sales / partner gate": 1
+  },
+  "Dev & Infra": {
+   "Self-serve (free)": 8,
+   "Self-serve (trial)": 2
+  },
+  "Productivity & PM": {
+   "Self-serve (free)": 8,
+   "Self-serve (trial)": 2
+  },
+  "Finance & Fintech": {
+   "Self-serve (free)": 4,
+   "Approval / app review": 1,
+   "Sales / partner gate": 2,
+   "No public API": 1,
+   "Paid plan": 2
+  },
+  "AI & Media-native": {
+   "Paid plan": 6,
+   "Self-serve (free)": 3,
+   "Self-serve (trial)": 1
+  }
+ },
+ "vmatrix": {
+  "CRM & Sales": {
+   "Ready now": 9,
+   "Needs outreach": 1
+  },
+  "Support & Helpdesk": {
+   "Ready now": 8,
+   "Buildable w/ caveat": 1,
+   "Needs outreach": 1
+  },
+  "Communications": {
+   "Ready now": 9,
+   "Buildable w/ caveat": 1
+  },
+  "Marketing & Ads": {
+   "Buildable w/ caveat": 5,
+   "Needs outreach": 1,
+   "Ready now": 4
+  },
+  "Ecommerce": {
+   "Ready now": 3,
+   "Buildable w/ caveat": 5,
+   "Needs outreach": 1,
+   "Not buildable today": 1
+  },
+  "Data, SEO & Scraping": {
+   "Ready now": 7,
+   "Buildable w/ caveat": 2,
+   "Needs outreach": 1
+  },
+  "Dev & Infra": {
+   "Ready now": 10
+  },
+  "Productivity & PM": {
+   "Ready now": 10
+  },
+  "Finance & Fintech": {
+   "Ready now": 4,
+   "Buildable w/ caveat": 3,
+   "Needs outreach": 2,
+   "Not buildable today": 1
+  },
+  "AI & Media-native": {
+   "Buildable w/ caveat": 7,
+   "Ready now": 3
+  }
+ },
+ "cats": [
+  "CRM & Sales",
+  "Support & Helpdesk",
+  "Communications",
+  "Marketing & Ads",
+  "Ecommerce",
+  "Data, SEO & Scraping",
+  "Dev & Infra",
+  "Productivity & PM",
+  "Finance & Fintech",
+  "AI & Media-native"
+ ],
+ "pass1_vs_final_field_diffs": 32,
+ "not_in_composio_ready": [
+  "LiveAgent",
+  "Vonage",
+  "SE Ranking"
+ ],
+ "composio": {
+  "Y": 80,
+  "N": 15,
+  "MCP": 5
+ },
+ "outreach": [
+  "DealCloud",
+  "Gladly",
+  "LinkedIn Ads",
+  "Salesforce Commerce Cloud",
+  "fanbasis",
+  "Waterfall.io",
+  "Paygent Connect",
+  "iPayX",
+  "PitchBook"
+ ],
+ "status": {
+  "doc read": 45,
+  "verified in sample": 36,
+  "needs human check": 8,
+  "canonical URL (not re-read)": 11
+ }
+}

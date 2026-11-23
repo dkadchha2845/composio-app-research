@@ -1,0 +1,52 @@
+id|auth|access|api|mcp|evidence|note
+3|OAuth2;API key|TRIAL|REST broad|NONE?|https://pipedrive.readme.io/docs/core-api-concepts-authentication|x-api-token header; one active token per user; dev sandbox listed
+4|OAuth2;API key|FREE|REST broad|?|https://docs.attio.com/rest-api/guides/authentication|OAuth for multi-workspace, API key for single workspace
+5|OAuth2;API key|FREE|REST+GraphQL broad|?|https://docs.twenty.com/developers/introduction|open source, self-host Docker; REST+GraphQL+webhooks
+6|OAuth2|FREE|REST medium|NONE|https://developers.podio.com/authentication|4 OAuth2 flows incl app auth + password flow
+7|OAuth2|FREE|REST broad|?|https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html|OAuth2; 1h access tokens
+8|API key;OAuth2|TRIAL|REST broad|OFFICIAL?|https://developer.close.com/topics/authentication/|Basic w/ API key; MCP page in nav
+9|API key;OAuth2|TRIAL|REST medium|NONE|https://developer.copper.com/introduction/authentication.html|token + user email headers; OAuth for partners
+10|API key;OAuth2?|PARTNER|REST broad|OFFICIAL|https://api.docs.dealcloud.com/|customer site needed; SDKs Py/C#; MCP server listed
+11|OAuth2;API key(deprecated)|TRIAL|REST broad|?|https://developer.zendesk.com/api-reference/introduction/security-and-auth/|API tokens (Basic) marked deprecated; OAuth global tokens for multi-tenant apps
+12|OAuth2;Token|TRIAL|REST broad|OFFICIAL|https://developers.intercom.com/docs/build-an-integration/learn-more/authentication|MCP guide linked
+13|API key|TRIAL|REST broad|?|https://developers.freshdesk.com/api/|API key as Basic username; trial 50 rpm
+14|OAuth2;Token|TRIAL|REST broad|?|https://dev.frontapp.com/docs/authentication|OAuth required for public integrations
+15|Token|PAID|REST broad|?|https://docs.usepylon.com/pylon-docs/developer/api/authentication|Bearer; admin-only token creation; 23 resource groups; no free plan
+17|API key|TRIAL|GraphQL broad|OFFICIAL|https://www.plain.com/docs/api-reference/graphql|docs recommend MCP for agents
+18|OAuth2|TRIAL|REST broad|NONE|https://developer.helpscout.com/mailbox-api/overview/authentication/|auth code + client credentials
+19|API key;OAuth2|TRIAL|REST broad|NONE|https://developers.gorgias.com/docs/authentication|OAuth2 mandatory for public apps
+20|Basic|PARTNER|REST broad|NONE|https://developer.gladly.com/rest/|token Basic auth; needs Gladly account (enterprise, demo-led); sandbox org.gladly.qa
+16|API key|TRIAL|REST broad|NONE|https://www.liveagent.com/api/|30-day free trial no card
+25|API key|FREE|REST narrow|OFFICIAL|https://pumble.com/help/integrations/automation-workflow-integrations/how-to-use-the-pumble-mcp-server/|API keys integration + MCP server + webhooks
+59|API key|PARTNER|REST medium|NONE|https://waterfall.io/|book-a-call, no self-serve; docs.waterfall.io async job API
+84|API key|PARTNER|REST broad|OFFICIAL(NMI)|https://docs.nmi.com/docs/getting-your-api-keys|keys from NMI merchant/partner portal; requires merchant account via Paygent
+85|unknown|NONE|none documented|NONE?|https://ipayx.ai/docs|FX verification tool; no API documented; 'MCP FX server' only in meta keywords
+50|unknown|NONE|none found|NONE|search: no developer docs found|no public API/dev docs located
+23|OAuth2|FREE|REST broad|NONE|https://www.zoho.com/cliq/help/restapi/v2/|scoped OAuth; users/channels/chats/messages/bots/files
+28|Token;OAuth2|REVIEW|REST medium|NONE|https://developers.facebook.com/docs/whatsapp/cloud-api/get-started|free test number to 5 recipients; production needs real WABA + business setup
+29|Basic;OAuth2|PAID|REST broad|NONE|https://developers.aircall.io/api-references|Basic api_id:api_token from Company Settings (admin); OAuth only for Marketplace-listed partners; no free plan
+30|API key;JWT|TRIAL|REST broad|NONE|https://developer.vonage.com/en/getting-started/concepts/authentication|Basic key/secret or JWT from application
+31|OAuth2;Developer token|REVIEW|REST broad|OFFICIAL|https://developers.google.com/google-ads/api/docs/api-policy/access-levels|Test level instant; Explorer (2,880 ops/day) usually auto-approved; Basic needs verification; Standard manual audit ~10 days
+32|OAuth2|REVIEW|REST broad|COMMUNITY|https://developers.facebook.com/docs/marketing-api/get-started/authorization|standard access default (rate-limited); advanced needs App Review per permission
+33|OAuth2|PARTNER|REST broad|NONE|https://learn.microsoft.com/en-us/linkedin/marketing/getting-access|must apply; dev tier limited to own accounts; standard tier via support ticket, may be declined
+34|OAuth2;Token|PAID|REST broad|?|https://marketplace.gohighlevel.com/docs/|OAuth2 marketplace + Private Integration Tokens; GHL has no free plan
+35|OAuth2;API key|FREE|REST broad|OFFICIAL|https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/|docs nav has MCP server page under Build with AI tools
+36|API key;OAuth2|FREE|REST broad|OFFICIAL|https://developers.klaviyo.com/en/docs/klaviyo_mcp_server|remote+local MCP; moving private keys -> OAuth
+37|API key|FREE|REST narrow|OFFICIAL|https://help.systeme.io/article/2323-how-to-use-systeme-io-public-api|X-API-Key; max 3 keys; settings section named 'MCP & API keys'
+38|OAuth2|REVIEW|REST broad|NONE|https://developers.pinterest.com/docs/getting-started/set-up-app/|Trial access request reviewed; trial tokens expire 24h; Standard needs upgrade
+39|OAuth2|REVIEW|REST narrow|NONE|https://developers.facebook.com/docs/threads/get-started|dev mode = invited testers only; App Review per permission for others
+40|API key|FREE|REST broad|NONE|https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication|Bearer API key
+41|OAuth2;Token|FREE|GraphQL broad|OFFICIAL|https://shopify.dev/docs/apps/build/devmcp|Dev MCP (local) + separate Shopify MCP page
+42|Basic;OAuth1|FREE|REST broad|NONE|https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication|Basic over HTTPS, OAuth1.0a over HTTP; per-store base URL
+43|Token;OAuth2|TRIAL|REST+GraphQL broad|DOCS-ONLY|https://docs.bigcommerce.com/developer/docs/overview/api-fundamentals/api-accounts|X-Auth-Token store accounts; app OAuth; Docs MCP only
+44|OAuth2;JWT|PARTNER|REST broad|NONE|https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html|SLAS + Account Manager clients, need B2C Commerce realm (customer/partner)
+45|Token;OAuth1|FREE|REST+GraphQL broad|NONE|https://developer.adobe.com/commerce/webapi/get-started/authentication/|bearer tokens, OAuth1.0a integrations; per-instance
+46|API key;OAuth2|PAID|REST medium|NONE|https://developers.squarespace.com/commerce-apis/authentication-and-permissions|API keys need Commerce Advanced plan; OAuth clients need review/approval
+49|OAuth2|REVIEW|REST broad|NONE|https://developer-docs.amazon/sp-api/docs/sp-api-registration-overview|professional seller account; role review; public apps via Appstore
+51|Basic|FREE|REST broad|?|https://docs.dataforseo.com/v3/auth/|free account, login/password Basic; pay-as-you-go
+52|API key|TRIAL|REST broad|OFFICIAL|https://seranking.com/api.html|API in every plan, free trial, MCP server
+53|API key|PAID|REST broad|OFFICIAL|https://docs.ahrefs.com/docs/api/reference/introduction|eligible paid plans; limited free test queries; owner/admin creates key
+54|Token|TRIAL|REST narrow|OFFICIAL|https://docs.mrscraper.com|token from Token Plan page; MCP server
+55|Token;OAuth2|FREE|REST broad|OFFICIAL|https://docs.apify.com/platform/integrations/mcp|mcp.apify.com hosted, OAuth or token
+56|API key|FREE|REST medium|OFFICIAL|https://docs.firecrawl.dev/mcp-server|remote+local MCP, keyless daily-limited mode
+57|API key|TRIAL|REST broad|OFFICIAL|https://docs.brightdata.com/api-reference/authentication|bearer key; agent API keys for MCP
