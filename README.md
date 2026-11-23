@@ -10,7 +10,7 @@ customer-only access, and app review. 57 apps already ship an official MCP serve
 
 Accuracy on a held-out sample: **96%** for the final data, against 88% for the model-only first pass (see `data/verification.json`).
 
-- Case study page: `site/index.html` (live: https://composio-app-research.vercel.app), a single self-contained file with the dataset embedded as JSON
+- Case study page: `site/index.html` (live: https://dkadchha2845.github.io/composio-app-research/, served from `docs/`), a single self-contained file with the dataset embedded as JSON
 - Dataset: `data/final.json`, one object per app with evidence URLs, the pass-1 values and a change log
 - Open questions for a human: `HUMAN_CHECKS.md`
 

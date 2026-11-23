@@ -88,6 +88,8 @@ def main():
         html = html.replace("git clone REPO_URL && cd composio-app-research", "cd composio-app-research   # unzip the repo")
         html = html.replace('<a id="repolink" href="REPO_URL">REPO_LABEL</a>', "composio-app-research (submitted alongside this page)")
     (ROOT / "site" / "index.html").write_text(html)
+    (ROOT / "docs").mkdir(exist_ok=True)
+    (ROOT / "docs" / "index.html").write_text(html)   # served by GitHub Pages
     print(f"site/index.html  {len(html)/1024:.0f} KB  ready={ready}  misses={len(misses)}")
 
 
